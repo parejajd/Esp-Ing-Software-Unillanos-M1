@@ -5,7 +5,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "PaintType")
+@Table(name = "paint_type")
 public class PaintType {
     @Id
     private int id;
