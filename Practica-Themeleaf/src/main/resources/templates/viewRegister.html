@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 th:text="${nombre}">
+
+</h1>
+
+<select>
+    <th:block th:each="category : ${categorias}">
+        <option th:value="${category.id}" th:text="${category.type}">
+        </option>
+    </th:block>
+</select>
+</body>
+</html>
